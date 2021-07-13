@@ -1,0 +1,15 @@
+.main {
+    color: aliceblue;
+    top: 30%;
+    left: 6px;
+    position: absolute;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
