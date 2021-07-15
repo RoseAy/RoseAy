@@ -13,3 +13,30 @@
     color: white;
     text-align: center;
 }
+
+.server {
+    width: 100%;
+    left: 100px;
+    margin: -49px 10px;
+    position: absolute;
+}
+
+.discord-widget {
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    right: 350px;
+    top: 40%
+}
+
+@media only screen and (max-width: 600px) {
+
+    .discord-widget {
+        display: none;
+    }
+
+    .server {
+        top: 82px;
+        margin: 0;
+    }
+}
